@@ -33,7 +33,7 @@ public class Problem1Test {
 	@Test
 	public void testSum() {
 		int sum = prob.sum(ans);
-		assertTrue("Sum not right", sum == 23);
+		assertEquals("Sum not right", 23, sum);
 	}
 
 }
